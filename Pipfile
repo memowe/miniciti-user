@@ -1,0 +1,11 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+anglr = "*"
+miniciti = { git = 'https://github.com/memowe/miniciti.git', ref = 'main' }
+
+[dev-packages]
+pytest = "*"
